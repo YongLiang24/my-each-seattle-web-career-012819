@@ -5,7 +5,7 @@ def my_each (array)# put argument(s) here
   while count < array.length
    new_array << array[count]
   #  yield(arr[count])
-  yield
+  yield(new_array)
     count+=1
   end
   return new_array
